@@ -1,0 +1,30 @@
+// Question 1. search a character in a string
+
+let str = "my name is nitesh";
+console.log(str.charAt(0));
+
+// Question 2. Program to convert minutes to seconds
+
+var min = prompt("enter the minute value to convert into seconds");
+let sec = min*60;
+console.log("seconds : " +sec);
+
+
+// Question 3. Program to search for a element in a array of strings
+
+let arr = ["how","are","you"];
+let find = arr.indexOf("are");
+console.log(find);
+
+
+// Question 4. Program to display only elements containing 'a' in them from a array
+
+let arr = ["apple","boy","anaconda","dracula"];
+let as = arr.filter(s => s.toLowerCase().indexOf("a") == 0);
+let as = arr.filter("a");
+console.log(as);
+
+// Question 5. print an array in reverse order
+let a= [1,2,3,4,5];
+b = a.reverse();
+console.log(b);
